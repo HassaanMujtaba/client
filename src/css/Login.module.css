@@ -1,0 +1,43 @@
+.login{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .main{
+    width: 50%;
+    height: 100vh;
+    background-color: #000517;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login .sidetext{
+    background-color: #141F45;
+    height: 100vh;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    /* background-image: url('../../public/images/login-bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 102% 102%;
+    background-position: center;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+@media only screen and (max-width: 860px){
+    .login .sidetext {
+        display: none;
+    }
+    .login .main{
+        width: 100%;
+    }
+}

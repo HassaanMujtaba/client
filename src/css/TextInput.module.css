@@ -1,0 +1,21 @@
+.label,
+.field {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #1B1A38;
+    border: 1px solid #1B1A38;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.field input:active {
+    box-shadow: 1px 1px 10px #6788FF;
+    border: none;
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+.sidebar{
+    position: relative;
+    left: -300px;
+    /* top: 81.44px; */
+    min-height: calc(100vh - 53.616px);
+    max-height: fit-content;
+    background-image: linear-gradient(to left, var(--main1), var(--main2));
+    width: 300px;
+    transition: left 0.6s;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 14px;
+    width: 100%;
+}
+
+.sidebar a:hover{
+    background-color: var(--main1);
+}
